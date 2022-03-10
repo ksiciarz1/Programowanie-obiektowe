@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\Programowanie obiektowe.csproj",
-      "projectName": "Programowanie obiektowe",
-      "projectPath": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\Programowanie obiektowe.csproj",
+      "projectUniqueName": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\lab1.csproj",
+      "projectName": "lab1",
+      "projectPath": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\lab1.csproj",
       "packagesPath": "D:\\Users\\kacper.siciarz\\.nuget\\packages\\",
       "outputPath": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\obj\\",
       "projectStyle": "PackageReference",

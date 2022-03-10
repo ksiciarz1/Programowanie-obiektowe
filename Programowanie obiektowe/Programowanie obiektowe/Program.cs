@@ -6,7 +6,7 @@ namespace Programowanie_obiektowe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
