@@ -90,5 +90,24 @@ namespace Programowanie_obiektowe
             Ulamek temp = new Ulamek(u.licznik * y.mianownik, u.mianownik * y.licznik);
             return temp;
         }
+
+        public int RoundUp()
+        {
+            int tempLicznik = licznik;
+            while (tempLicznik % mianownik != 0)
+            {
+                tempLicznik--;
+            }
+            return tempLicznik / mianownik;
+        }
+        public int RoundDown()
+        {
+            int tempLicznik = licznik;
+            while (tempLicznik % mianownik != 0)
+            {
+                tempLicznik++;
+            }
+            return tempLicznik / mianownik;
+        }
     }
 }
