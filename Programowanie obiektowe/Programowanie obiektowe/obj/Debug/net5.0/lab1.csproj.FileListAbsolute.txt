@@ -1,0 +1,16 @@
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\net5.0\lab1.exe
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\net5.0\lab1.deps.json
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\net5.0\lab1.runtimeconfig.json
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\net5.0\lab1.runtimeconfig.dev.json
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\net5.0\lab1.dll
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\net5.0\ref\lab1.dll
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\net5.0\lab1.pdb
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\net5.0\lab1.csproj.AssemblyReference.cache
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\net5.0\lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\net5.0\lab1.AssemblyInfoInputs.cache
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\net5.0\lab1.AssemblyInfo.cs
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\net5.0\lab1.csproj.CoreCompileInputs.cache
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\net5.0\lab1.dll
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\net5.0\ref\lab1.dll
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\net5.0\lab1.pdb
+D:\Users\kacper.siciarz\Desktop\Programowanie-obiektowe\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\net5.0\lab1.genruntimeconfig.cache
