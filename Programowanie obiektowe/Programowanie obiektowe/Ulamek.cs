@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Programowanie_obiektowe
 {
-    class Ulamek
+    class Ulamek : IEquatable<Ulamek>, IComparable<Ulamek>
     {
         private int licznik { get; }
         private int mianownik { get; }
@@ -32,6 +32,32 @@ namespace Programowanie_obiektowe
             return $"{licznik}/{mianownik}";
         }
 
+        public int CompareTo(Ulamek u)
+        {
+            Ulamek temp = new Ulamek(u.licznik * this.mianownik, u.mianownik * this.mianownik);
+            Ulamek temp2 = new Ulamek(this.licznik * u.mianownik, this.mianownik * u.mianownik);
+
+            if (temp.licznik > temp2.licznik)
+            {
+                return 1;
+            }
+            else if (temp.licznik == temp2.licznik)
+            {
+                return 0;
+            }
+            else return -1;
+        }
+
+        public bool Equals(Ulamek u)
+        {
+            if (u.licznik == this.licznik && u.mianownik == this.mianownik)
+            {
+                return true;
+            }
+            return false;
+
+        }
+
         public static Ulamek operator +(Ulamek u)
         {
             Ulamek temp = new Ulamek(u.licznik, u.mianownik);
@@ -53,6 +79,7 @@ namespace Programowanie_obiektowe
             Ulamek temp = new Ulamek(u.licznik * y.mianownik - y.licznik * u.mianownik, u.mianownik * y.mianownik);
             return temp;
         }
+
         public static Ulamek operator *(Ulamek u, Ulamek y)
         {
             Ulamek temp = new Ulamek(u.licznik * y.licznik, u.mianownik * y.mianownik);
