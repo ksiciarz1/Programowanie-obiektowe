@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Programowanie_obiektowe
 {
-    class Ulamek : IEquatable<Ulamek>, IComparable<Ulamek>
+    public class Ulamek : IEquatable<Ulamek>, IComparable<Ulamek>
     {
         private int licznik { get; }
         private int mianownik { get; }
