@@ -11,27 +11,42 @@ namespace Programowanie_obiektowe
         private int licznik { get; }
         private int mianownik { get; }
 
+        /// <summary>
+        /// Creates an empty Ulamek with licznik = 0 and mianownik = 1
+        /// </summary>
         public Ulamek()
         {
             licznik = 0;
             mianownik = 1;
         }
+
         public Ulamek(int licznik, int mianownik)
         {
             this.licznik = licznik;
             this.mianownik = mianownik;
         }
+        /// <summary>
+        /// Coppies Ulamek to new object
+        /// </summary>
+        /// <param name="ulamek"></param>
         public Ulamek(Ulamek ulamek)
         {
             licznik = ulamek.licznik;
             mianownik = ulamek.mianownik;
         }
-
+        /// <summary>
+        /// Presents Ulamek as String with fromat "licznik/mianownik"
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return $"{licznik}/{mianownik}";
         }
-
+        /// <summary>
+        /// Compares this object to other Ulamek
+        /// </summary>
+        /// <param name="u">Ulamek to be compared to</param>
+        /// <returns>1 if greater, 0 if equal and -1 if lesser</returns>
         public int CompareTo(Ulamek u)
         {
             if (this.licznik == u.licznik)
@@ -83,7 +98,11 @@ namespace Programowanie_obiektowe
                 }
             }
         }
-
+        /// <summary>
+        /// Check if ulamek are equal
+        /// </summary>
+        /// <param name="u"></param>
+        /// <returns>true if equal, false otherwise</returns>
         public bool Equals(Ulamek u)
         {
             if (u.licznik == this.licznik && u.mianownik == this.mianownik)
@@ -142,7 +161,10 @@ namespace Programowanie_obiektowe
             Ulamek temp = new Ulamek(u.licznik * y.mianownik, u.mianownik * y.licznik);
             return temp;
         }
-
+        /// <summary>
+        /// Rounds Ulamek Up to closest int number
+        /// </summary>
+        /// <returns></returns>
         public int RoundUp()
         {
             int tempLicznik = licznik;
@@ -152,6 +174,10 @@ namespace Programowanie_obiektowe
             }
             return tempLicznik / mianownik;
         }
+        /// <summary>
+        /// Round Ulamek Down to closest int number
+        /// </summary>
+        /// <returns></returns>
         public int RoundDown()
         {
             int tempLicznik = licznik;

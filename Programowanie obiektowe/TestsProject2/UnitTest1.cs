@@ -66,5 +66,41 @@ namespace TestsProject2
             Assert.Equal("-2/2", (u - y).ToString());
             Assert.Equal("2/6", (u / y).ToString());
         }
+
+        [Fact]
+        public void SortingTest()
+        {
+            Ulamek[] ulamekArray = new Ulamek[] { new Ulamek(5, 6), new Ulamek(1, 2), new Ulamek(4, 5), new Ulamek(6, 7) };
+            bool isSorted = true;
+
+            for (int i = 0; i < ulamekArray.Length; i++)
+            {
+                for (int j = 0; j < ulamekArray.Length; j++)
+                {
+                    if (j + 1 < ulamekArray.Length)
+                    {
+                        if (ulamekArray[j].CompareTo(ulamekArray[j + 1]) > 0)
+                        {
+                            Ulamek temp = ulamekArray[j];
+                            ulamekArray[j] = ulamekArray[j + 1];
+                            ulamekArray[j + 1] = temp;
+                        }
+                    }
+                }
+            }
+
+            for (int i = 0; i < ulamekArray.Length; i++) // Checking if array was sorted
+            {
+                if (i + 1 < ulamekArray.Length)
+                {
+                    if (ulamekArray[i].CompareTo(ulamekArray[i + 1]) == 1)
+                    {
+                        isSorted = false;
+                    }
+                }
+            }
+
+            Assert.True(isSorted);
+        }
     }
 }
