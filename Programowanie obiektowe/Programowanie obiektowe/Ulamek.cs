@@ -34,18 +34,54 @@ namespace Programowanie_obiektowe
 
         public int CompareTo(Ulamek u)
         {
-            Ulamek temp = new Ulamek(u.licznik * this.mianownik, u.mianownik * this.mianownik);
-            Ulamek temp2 = new Ulamek(this.licznik * u.mianownik, this.mianownik * u.mianownik);
+            if (this.licznik == u.licznik)
+            {
+                if (this.mianownik > u.mianownik)
+                {
+                    return -1;
+                }
+                else if (this.mianownik < u.mianownik)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+            if (this.mianownik == u.mianownik)
+            {
+                if (this.licznik > u.licznik)
+                {
+                    return 1;
+                }
+                else if (this.mianownik < u.mianownik)
+                {
+                    return -1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+            else
+            {
+                Ulamek temp = new Ulamek(this.licznik * u.mianownik, this.mianownik * u.mianownik);
+                Ulamek temp2 = new Ulamek(u.licznik * this.mianownik, u.mianownik * this.mianownik);
 
-            if (temp.licznik > temp2.licznik)
-            {
-                return 1;
+                if (temp.licznik > temp2.licznik)
+                {
+                    return 1;
+                }
+                else if (temp.licznik < temp2.licznik)
+                {
+                    return -1;
+                }
+                else
+                {
+                    return 0;
+                }
             }
-            else if (temp.licznik == temp2.licznik)
-            {
-                return 0;
-            }
-            else return -1;
         }
 
         public bool Equals(Ulamek u)
