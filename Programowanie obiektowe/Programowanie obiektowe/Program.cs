@@ -12,8 +12,8 @@ namespace Programowanie_obiektowe
             Console.WriteLine(ulamek1 * ulamek1);
             Console.WriteLine(ulamek1 + ulamek2);
 
-            Console.WriteLine(ulamek1.RoundUp);
-            Console.WriteLine(ulamek1.RoundDown);
+            Console.WriteLine(ulamek1.RoundUp());
+            Console.WriteLine(ulamek1.RoundDown());
         }
     }
 }

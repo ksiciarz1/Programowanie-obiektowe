@@ -96,7 +96,7 @@ namespace Programowanie_obiektowe
             int tempLicznik = licznik;
             while (tempLicznik % mianownik != 0)
             {
-                tempLicznik--;
+                tempLicznik++;
             }
             return tempLicznik / mianownik;
         }
@@ -105,7 +105,7 @@ namespace Programowanie_obiektowe
             int tempLicznik = licznik;
             while (tempLicznik % mianownik != 0)
             {
-                tempLicznik++;
+                tempLicznik--;
             }
             return tempLicznik / mianownik;
         }
