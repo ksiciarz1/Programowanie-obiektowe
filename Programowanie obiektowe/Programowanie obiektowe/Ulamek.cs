@@ -101,7 +101,15 @@ namespace Programowanie_obiektowe
         }
         public static Ulamek operator +(Ulamek u, Ulamek y)
         {
-            Ulamek temp = new Ulamek(u.licznik * y.mianownik + y.licznik * u.mianownik, u.mianownik * y.mianownik);
+            Ulamek temp;
+            if (u.mianownik == y.mianownik)
+            {
+                temp = new Ulamek(u.licznik + y.licznik, u.mianownik);
+            }
+            else
+            {
+                temp = new Ulamek(u.licznik * y.mianownik + y.licznik * u.mianownik, u.mianownik * y.mianownik);
+            }
             return temp;
         }
 
@@ -112,7 +120,15 @@ namespace Programowanie_obiektowe
         }
         public static Ulamek operator -(Ulamek u, Ulamek y)
         {
-            Ulamek temp = new Ulamek(u.licznik * y.mianownik - y.licznik * u.mianownik, u.mianownik * y.mianownik);
+            Ulamek temp;
+            if (u.mianownik == y.mianownik)
+            {
+                temp = new Ulamek(u.licznik - y.licznik, u.mianownik);
+            }
+            else
+            {
+                temp = new Ulamek(u.licznik * y.mianownik - y.licznik * u.mianownik, u.mianownik * y.mianownik);
+            }
             return temp;
         }
 

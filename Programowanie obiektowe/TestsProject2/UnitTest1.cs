@@ -1,17 +1,31 @@
 using System;
 using Xunit;
+using Programowanie_obiektowe;
 
 namespace TestsProject2
 {
     public class UnitTest1
     {
-        [Xunit.Fact]
-        public void ComparingTest()
+        [Fact]
+        public void toStringTest()
         {
-            Programowanie_obiektowe.Ulamek u = new Programowanie_obiektowe.Ulamek(3, 2);
-            Programowanie_obiektowe.Ulamek i = new Programowanie_obiektowe.Ulamek(5, 5);
-            Programowanie_obiektowe.Ulamek o = new Programowanie_obiektowe.Ulamek(1, 3);
-            Programowanie_obiektowe.Ulamek p = new Programowanie_obiektowe.Ulamek(1, 4);
+            Ulamek u = new Ulamek(1, 2);
+            Assert.Equal("1/2", u.ToString());
+
+            Ulamek y = new Ulamek(3, 4);
+            Assert.Equal("3/4", y.ToString());
+
+            Ulamek t = new Ulamek(8, 4);
+            Assert.Equal("8/4", t.ToString());
+        }
+
+        [Fact]
+        public void ComparisonTest()
+        {
+            Ulamek u = new Ulamek(3, 2);
+            Ulamek i = new Ulamek(5, 5);
+            Ulamek o = new Ulamek(1, 3);
+            Ulamek p = new Ulamek(1, 4);
 
             bool isGreater = false;
             if (u.CompareTo(i) > 0)
@@ -33,8 +47,8 @@ namespace TestsProject2
         [Fact]
         public void RoundingTest()
         {
-            Programowanie_obiektowe.Ulamek u = new Programowanie_obiektowe.Ulamek(1, 2);
-            Programowanie_obiektowe.Ulamek y = new Programowanie_obiektowe.Ulamek(2, 3);
+            Ulamek u = new Ulamek(1, 2);
+            Ulamek y = new Ulamek(2, 3);
 
             Assert.Equal(0, u.RoundDown());
             Assert.Equal(1, y.RoundUp());
@@ -43,14 +57,14 @@ namespace TestsProject2
         [Fact]
         public void OperatorTests()
         {
-            Programowanie_obiektowe.Ulamek u = new Programowanie_obiektowe.Ulamek(1, 2);
-            Programowanie_obiektowe.Ulamek y = new Programowanie_obiektowe.Ulamek(3, 2);
+            Ulamek u = new Ulamek(1, 2);
+            Ulamek y = new Ulamek(3, 2);
 
-            Programowanie_obiektowe.Ulamek t = new Programowanie_obiektowe.Ulamek(u * y);
-            Programowanie_obiektowe.Ulamek r = new Programowanie_obiektowe.Ulamek(u + y);
+            Assert.Equal("3/4", (u * y).ToString());
+            Assert.Equal("4/2", (u + y).ToString());
 
-            //Assert.Equal("3/4", (u * u).ToString());
-            //Assert.Equal("8/4", (u + y).ToString());
+            Assert.Equal("-2/2", (u - y).ToString());
+            Assert.Equal("2/6", (u / y).ToString());
         }
     }
 }
