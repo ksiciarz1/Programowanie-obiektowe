@@ -27,7 +27,25 @@ namespace lab_2
 
         public string ToString()
         {
-            return $"{name}";
+            string returnString = $"Classromm: {name}\n";
+            for (int i = 0; i < persons.Length; i++)
+            {
+                if (persons[i] is Student)
+                {
+                    Student student = (Student)persons[i];
+                    returnString += student.ToString();
+                }
+                else if (persons[i] is Teacher)
+                {
+                    Teacher teacher = (Teacher)persons[i];
+                    returnString += teacher.ToString();
+                }
+                else
+                {
+                    returnString += persons[i].ToString();
+                }
+            }
+            return returnString;
         }
     }
 }

@@ -14,7 +14,7 @@ namespace lab_2
         }
         public string ToString()
         {
-            return $"Teacher {GetName()}, {GetAge()}";
+            return $"Teacher: {name}, ({age} y.o.)\n";
         }
     }
 }

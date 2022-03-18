@@ -9,7 +9,7 @@ namespace lab_2
     class Student : Person
     {
         protected string group;
-        protected List<Task> tasks;
+        protected List<Task> tasks = new List<Task>();
 
         public string GetGroup()
         {
@@ -30,7 +30,7 @@ namespace lab_2
             this.tasks = tasks;
         }
 
-        public void AddTask(string taskName, Task.TaskStatus taskStatus)
+        public void AddTask(string taskName, TaskStatus taskStatus)
         {
             tasks.Add(new Task(taskName, taskStatus));
         }
@@ -38,22 +38,22 @@ namespace lab_2
         {
             tasks.RemoveAt(index);
         }
-        public void UpdateTask(int index, Task.TaskStatus taskStatus)
+        public void UpdateTask(int index, TaskStatus taskStatus)
         {
             tasks[index].SetStatus(taskStatus);
         }
-        public string RenderTasks(string prefix = "/t")
+        public string RenderTasks(string prefix = "\t")
         {
             string returnString = "";
             for (int i = 0; i < tasks.Count; i++)
             {
-                returnString += prefix + tasks[i].ToString();
+                returnString += "\n" + prefix + tasks[i].ToString();
             }
             return returnString;
         }
         public string ToString()
         {
-            return $"{name}, {age}";
+            return $"Student: {name}, ({age} y.o.)\n Group: {group}\n Tasks:\n" + RenderTasks() + "\n\n";
         }
         public bool Equals(Student student)
         {

@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace lab_2
 {
+    enum TaskStatus
+    {
+        Waiting,
+        Progress,
+        Done,
+        Rejected
+    }
     class Task
     {
         private string name;
         private TaskStatus status;
-        public enum TaskStatus
-        {
-            Waiting,
-            Progress,
-            Done,
-            Rejected
-        }
         public string GetName()
         {
             return name;
@@ -41,7 +41,7 @@ namespace lab_2
         }
         public string ToString()
         {
-            return $"{name}: {status}";
+            return $"{name} [{status}]";
         }
         public bool Equals(Task task)
         {
