@@ -17,14 +17,8 @@ namespace lab_2
     {
         private string name;
         private TaskStatus status;
-        public string GetName()
-        {
-            return name;
-        }
-        public void SetName(string name)
-        {
-            this.name = name;
-        }
+        public string Name { get => this.name; set => this.name = value; }
+
         public TaskStatus GetStatus()
         {
             return status;
@@ -39,13 +33,18 @@ namespace lab_2
             this.name = name;
             this.status = status;
         }
-        public string ToString()
+        public Task(Task task)
+        {
+            this.name = task.name;
+            this.status = task.status;
+        }
+        public override string ToString()
         {
             return $"{name} [{status}]";
         }
         public bool Equals(Task task)
         {
-            if (task.GetName() == name && task.GetStatus() == status)
+            if (task.Name == name && task.GetStatus() == status)
             {
                 return true;
             }

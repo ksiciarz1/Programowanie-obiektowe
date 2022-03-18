@@ -12,7 +12,7 @@ namespace lab_2
         {
 
         }
-        public string ToString()
+        public override string ToString()
         {
             return $"Teacher: {name}, ({age} y.o.)\n\n";
         }

@@ -10,22 +10,8 @@ namespace lab_2
     {
         protected string name;
         protected int age;
-        public string GetName()
-        {
-            return name;
-        }
-        public void SetName(string name)
-        {
-            this.name = name;
-        }
-        public int GetAge()
-        {
-            return age;
-        }
-        public void SetAge(int age)
-        {
-            this.age = age;
-        }
+        public string Name { get => this.name; set => this.name = value; }
+        public int Age { get => this.age; set => this.age = value; }
 
         public Person(string name, int age)
         {
@@ -34,14 +20,14 @@ namespace lab_2
         }
         public bool Equals(Person person)
         {
-            if (person.GetAge() == age && person.GetName() == name)
+            if (person.Age == age && person.Name == name)
             {
                 return true;
             }
             return false;
         }
 
-        public string ToString()
+        public override string ToString()
         {
             return $"{name}: {age}";
         }

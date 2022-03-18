@@ -10,14 +10,7 @@ namespace lab_2
     {
         private string name;
         private Person[] persons;
-        public string GetName()
-        {
-            return name;
-        }
-        public void SetName(string name)
-        {
-            this.name = name;
-        }
+        public string Name { get => this.name; set => this.name = value; }
 
         public Classroom(string name, Person[] persons)
         {
@@ -25,7 +18,7 @@ namespace lab_2
             this.persons = persons;
         }
 
-        public string ToString()
+        public override string ToString()
         {
             string returnString = $"Classromm: {name}\n\n";
             for (int i = 0; i < persons.Length; i++)

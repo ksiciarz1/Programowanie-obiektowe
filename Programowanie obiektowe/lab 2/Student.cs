@@ -10,15 +10,7 @@ namespace lab_2
     {
         protected string group;
         protected List<Task> tasks = new List<Task>();
-
-        public string GetGroup()
-        {
-            return group;
-        }
-        public void SetGroup(string group)
-        {
-            this.group = group;
-        }
+        public string Group { get => this.group; set => this.group = value; }
 
         public Student(string name, int age, string group) : base(name, age)
         {
@@ -27,7 +19,12 @@ namespace lab_2
         public Student(string name, int age, string group, List<Task> tasks) : base(name, age)
         {
             this.group = group;
-            this.tasks = tasks;
+            List<Task> tasksList = new List<Task>();
+            for (int i = 0; i < tasks.Count; i++)
+            {
+                tasksList.Add(new Task(tasks[i]));
+            }
+            this.tasks = tasksList;
         }
 
         public void AddTask(string taskName, TaskStatus taskStatus)
@@ -44,20 +41,24 @@ namespace lab_2
         }
         public string RenderTasks(string prefix = "\t")
         {
+            // !!!
+            // https://dirask.com/snippets/java/Java+optimal+way+to+join+Strings
             string returnString = "";
             for (int i = 0; i < tasks.Count; i++)
             {
-                returnString += "\n" + prefix + $"{i+1}. {tasks[i].ToString()}";
+                returnString += "\n" + prefix + $"{i + 1}. {tasks[i].ToString()}";
             }
             return returnString;
         }
-        public string ToString()
+        public override string ToString()
         {
             return $"Student: {name}, ({age} y.o.)\n Group: {group}\n Tasks:\n" + RenderTasks() + "\n\n";
         }
         public bool Equals(Student student)
         {
-            if (student.GetName() == name && student.GetAge() == age)
+            // !!!
+            // https://dirask.com/posts/C-NET-compare-strings-pORJwD
+            if (student.Name == name && student.Age == age)
             {
                 return true;
             }
