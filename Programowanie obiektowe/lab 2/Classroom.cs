@@ -27,7 +27,7 @@ namespace lab_2
 
         public string ToString()
         {
-            string returnString = $"Classromm: {name}\n";
+            string returnString = $"Classromm: {name}\n\n";
             for (int i = 0; i < persons.Length; i++)
             {
                 if (persons[i] is Student)

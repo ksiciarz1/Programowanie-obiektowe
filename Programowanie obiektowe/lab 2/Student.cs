@@ -47,7 +47,7 @@ namespace lab_2
             string returnString = "";
             for (int i = 0; i < tasks.Count; i++)
             {
-                returnString += "\n" + prefix + tasks[i].ToString();
+                returnString += "\n" + prefix + $"{i+1}. {tasks[i].ToString()}";
             }
             return returnString;
         }
