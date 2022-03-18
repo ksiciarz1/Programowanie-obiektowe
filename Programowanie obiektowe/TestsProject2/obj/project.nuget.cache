@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F6j3DLLX8JPQqYpHb47EKcPLQmBHBuzgdwHHwN0d7aRF0l81n9lYMsL+uP4e1ynHa1NQ5oQCrBLM04Tj542X+g==",
+  "dgSpecHash": "snRK/meEmuZ9upEU+SUyHA6UBdRX/i4Br+nXSkPdHmJEcMYhrddVvfz3RstAn+tP0nNrNA0+r7VWEqgdeyWJ+w==",
   "success": true,
-  "projectFilePath": "D:\\Users\\kacper.siciarz\\Desktop\\Programowani obiektowe\\Programowanie obiektowe\\TestsProject2\\TestsProject2.csproj",
+  "projectFilePath": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\TestsProject2\\TestsProject2.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\kacper.siciarz\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "D:\\Users\\kacper.siciarz\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

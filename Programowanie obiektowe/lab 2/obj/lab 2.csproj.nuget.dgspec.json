@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\lab1.csproj": {}
+    "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\lab 2\\lab 2.csproj": {}
   },
   "projects": {
-    "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\lab1.csproj": {
+    "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\lab 2\\lab 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\lab1.csproj",
-        "projectName": "lab1",
-        "projectPath": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\lab1.csproj",
+        "projectUniqueName": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\lab 2\\lab 2.csproj",
+        "projectName": "lab 2",
+        "projectPath": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\lab 2\\lab 2.csproj",
         "packagesPath": "D:\\Users\\kacper.siciarz\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\Programowanie obiektowe\\obj\\",
+        "outputPath": "D:\\Users\\kacper.siciarz\\Desktop\\Programowanie-obiektowe\\Programowanie obiektowe\\lab 2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
