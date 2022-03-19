@@ -1,0 +1,16 @@
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.csproj.AssemblyReference.cache
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.AssemblyInfoInputs.cache
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.AssemblyInfo.cs
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.csproj.CoreCompileInputs.cache
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.exe
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.deps.json
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.runtimeconfig.json
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.runtimeconfig.dev.json
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.dll
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.pdb
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.dll
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\refint\ZadanieDomoweLab-2.dll
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.pdb
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.genruntimeconfig.cache
+G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ref\ZadanieDomoweLab-2.dll
