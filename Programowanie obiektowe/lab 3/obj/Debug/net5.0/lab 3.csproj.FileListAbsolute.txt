@@ -1,0 +1,16 @@
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\obj\Debug\net5.0\lab 3.csproj.AssemblyReference.cache
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\obj\Debug\net5.0\lab 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\obj\Debug\net5.0\lab 3.AssemblyInfoInputs.cache
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\obj\Debug\net5.0\lab 3.AssemblyInfo.cs
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\obj\Debug\net5.0\lab 3.csproj.CoreCompileInputs.cache
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\bin\Debug\net5.0\lab 3.exe
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\bin\Debug\net5.0\lab 3.deps.json
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\bin\Debug\net5.0\lab 3.runtimeconfig.json
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\bin\Debug\net5.0\lab 3.runtimeconfig.dev.json
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\bin\Debug\net5.0\lab 3.dll
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\bin\Debug\net5.0\ref\lab 3.dll
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\bin\Debug\net5.0\lab 3.pdb
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\obj\Debug\net5.0\lab 3.dll
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\obj\Debug\net5.0\ref\lab 3.dll
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\obj\Debug\net5.0\lab 3.pdb
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\lab 3\obj\Debug\net5.0\lab 3.genruntimeconfig.cache

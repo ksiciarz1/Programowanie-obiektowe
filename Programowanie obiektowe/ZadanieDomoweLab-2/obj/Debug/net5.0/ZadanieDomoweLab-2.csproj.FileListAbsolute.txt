@@ -14,3 +14,19 @@ G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\o
 G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.pdb
 G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.genruntimeconfig.cache
 G:\Projects\Programowanie-obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ref\ZadanieDomoweLab-2.dll
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.exe
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.deps.json
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.runtimeconfig.json
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.runtimeconfig.dev.json
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.dll
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ref\ZadanieDomoweLab-2.dll
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\bin\Debug\net5.0\ZadanieDomoweLab-2.pdb
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.csproj.AssemblyReference.cache
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.AssemblyInfoInputs.cache
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.AssemblyInfo.cs
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.csproj.CoreCompileInputs.cache
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.dll
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ref\ZadanieDomoweLab-2.dll
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.pdb
+D:\Users\kacper.siciarz\Desktop\Programowani obiektowe\Programowanie obiektowe\ZadanieDomoweLab-2\obj\Debug\net5.0\ZadanieDomoweLab-2.genruntimeconfig.cache

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZadanieDomoweLab_2
 {
-    internal class Product : IThing
+    abstract class Product : IThing
     {
         private string name;
         public string Name { get => this.name; set => this.name = value; }
