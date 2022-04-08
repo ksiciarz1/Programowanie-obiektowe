@@ -41,14 +41,13 @@ namespace lab_2
         }
         public string RenderTasks(string prefix = "\t")
         {
-            // !!!
             // https://dirask.com/snippets/java/Java+optimal+way+to+join+Strings
-            string returnString = "";
+            StringBuilder builder = new StringBuilder();
             for (int i = 0; i < tasks.Count; i++)
             {
-                returnString += "\n" + prefix + $"{i + 1}. {tasks[i].ToString()}";
+                builder.Append("\n" + prefix + $"{i + 1}. {tasks[i]}");
             }
-            return returnString;
+            return builder.ToString();
         }
         public override string ToString()
         {
@@ -56,9 +55,8 @@ namespace lab_2
         }
         public bool Equals(Student student)
         {
-            // !!!
             // https://dirask.com/posts/C-NET-compare-strings-pORJwD
-            if (student.Name == name && student.Age == age)
+            if (Object.Equals(student.Name, name) && Object.Equals(student.Age, age))
             {
                 return true;
             }
