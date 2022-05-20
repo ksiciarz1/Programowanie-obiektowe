@@ -118,25 +118,30 @@ namespace lab8
                 while (!threadSuspend)
                 {
                     number++;
-                    if (number < 2)
+                    Func<int, bool> func = new Func<int, bool>((number) =>
                     {
-                        continue;
-                    }
-                    if (number == 2)
+                        if (number < 2)
+                        {
+                            return false;
+                        }
+                        if (number == 2)
+                        {
+                            return true;
+                        }
+                        for (int i = 2; i < number; ++i)
+                        {
+                            if (number % i == 0)
+                            {
+                                return false;
+                            }
+                        }
+                        return true;
+                    });
+                    if (func(number))
                     {
                         lock (primeNumbers)
                             primeNumbers.Add(number);
-                        continue;
                     }
-                    for (int i = 2; i < number; ++i)
-                    {
-                        if (number % i == 0)
-                        {
-                            break;
-                        }
-                    }
-                    lock (primeNumbers)
-                        primeNumbers.Add(number);
 
                 }
             });
@@ -148,51 +153,55 @@ namespace lab8
                 while (!threadSuspend)
                 {
                     number++;
-                    if (number < 2)
+                    Func<int, bool> func = new Func<int, bool>((number) =>
                     {
-                        continue;
-                    }
-                    if (number == 2 || number == 3)
+                        if (number < 2)
+                        {
+                            return false;
+                        }
+                        if (number == 2 || number == 3)
+                        {
+                            return true;
+                        }
+                        if (number % 2 == 0)
+                        {
+                            return false;
+                        }
+
+                        int limit = (int)Math.Floor(Math.Sqrt(number));
+                        for (int i = 5, d = 4; i <= limit; i += d)
+                        {
+                            if (number % i == 0)
+                            {
+                                return false;
+                            }
+                            d = 6 - d;
+                        }
+                        return true;
+                    });
+                    if (func(number))
                     {
                         lock (primeNumbers)
                             primeNumbers.Add(number);
-                        continue;
                     }
-                    if (number % 2 == 0)
-                    {
-                        continue;
-                    }
-
-                    int limit = (int)Math.Floor(Math.Sqrt(number));
-                    for (int i = 5, d = 4; i <= limit; i += d)
-                    {
-                        if (number % i == 0)
-                        {
-                            break;
-                        }
-                        d = 6 - d;
-                    }
-                    lock (primeNumbers)
-                        primeNumbers.Add(number);
-                    continue;
                 }
             });
 
 
             PrimeNumbersThread1.Start();
-            //PrimeNumbersThread2.Start();
-            //PrimeNumbersThread3.Start();
-            //PrimeNumbersThread4.Start();
-            //PrimeNumbersThread5.Start();
+            PrimeNumbersThread2.Start();
+            PrimeNumbersThread3.Start();
+            PrimeNumbersThread4.Start();
+            PrimeNumbersThread5.Start();
 
             Thread.Sleep(10000);
             threadSuspend = true;
 
             PrimeNumbersThread1.Join();
-            //PrimeNumbersThread2.Join();
-            //PrimeNumbersThread3.Join();
-            //PrimeNumbersThread4.Join();
-            //PrimeNumbersThread5.Join();
+            PrimeNumbersThread2.Join();
+            PrimeNumbersThread3.Join();
+            PrimeNumbersThread4.Join();
+            PrimeNumbersThread5.Join();
 
             Console.WriteLine($"Znaleziono {primeNumbers.Count} liczb pierwszych"); // All threads combined
         }
